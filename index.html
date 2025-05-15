@@ -3,27 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Salute e Benessere Digitali</title>
-   <style>
-  .pulsanti-container {
-    margin-top: 30px;
-    text-align: center;
-   }
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url('italiani-servizi-sanitari-digitali-Innovation-by-Ania-Tuttowelfare.info--e1551543318575.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed; /* opzionale per effetto parallax */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .pulsanti-container {
+      margin-top: 30px;
+      text-align: center;
+    }
 
     .pulsante-grande {
       padding: 10px 20px;
       font-size: 16px;
       margin: 10px;
       cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.8);
     }
-    
   </style>
 </head>
-<body style="background-image: url('italiani-servizi-sanitari-digitali-Innovation-by-Ania-Tuttowelfare.info--e1551543318575.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
-
-  <h1 style="color: white; text-align: center;">Benvenuto nel Progetto Salute e Benessere Digitali</h1>
+<body>
+  <h1>Benvenuto nel Progetto Salute e Benessere Digitali</h1>
   <div class="pulsanti-container">
-        <button class="pulsante-grande" onclick="window.location.href='Salute e benessere digitali.html'">Entra!</button>
-      </div>
-
+    <button class="pulsante-grande" onclick="window.location.href='Salute e benessere digitali.html'">Entra!</button>
+  </div>
 </body>
 </html>
