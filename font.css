@@ -1,4 +1,6 @@
+
     body {
+      background-image: url('images/italiani-servizi-sanitari-digitali-Innovation-by-Ania-Tuttowelfare.info--e1551543318575.jpg');
       font-family: 'Open Sans', sans-serif;
       background: linear-gradient(to bottom, #f1fdfc, #e0f7fa);
       color: #333;
@@ -17,7 +19,7 @@
     }
 
     nav {
-      background-color: #388E3C;
+      background-color: #4CAF50;
       text-align: center;
       padding: 10px 0;
     }
@@ -93,7 +95,7 @@
   .pulsante-grande {
     font-size: 28px;
     padding: 25px 50px;
-    background-color: #6455eb;
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 10px;
