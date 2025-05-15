@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dedfe6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6455eb;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #6455eb;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .pulsante-grande {
+    font-size: 28px;
+    padding: 25px 50px;
+    background-color: #6455eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .immagine-svantaggi {
+    width: 200px;  
+    height: auto; 
+    display: block;
+    margin: 10px auto; 
+  }
+  ol {
+    list-style-position: inside;  /* Mette il numero dentro il blocco del testo */
+    padding-left: 20px;           /* Aggiunge un po' di spazio a sinistra */
+  }
+  
+  li {
+    text-align: left;             /* Allinea il testo a sinistra */
+  }
+  
+  
+  
